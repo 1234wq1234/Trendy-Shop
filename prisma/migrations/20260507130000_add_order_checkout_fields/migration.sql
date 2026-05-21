@@ -1,0 +1,17 @@
+-- AlterTable
+ALTER TABLE "Order" ADD COLUMN     "fullName" TEXT,
+ADD COLUMN     "phone" TEXT,
+ADD COLUMN     "contactEmail" TEXT,
+ADD COLUMN     "addressLine1" TEXT,
+ADD COLUMN     "addressLine2" TEXT,
+ADD COLUMN     "district" TEXT,
+ADD COLUMN     "city" TEXT,
+ADD COLUMN     "postalCode" TEXT,
+ADD COLUMN     "paymentMethod" TEXT,
+ADD COLUMN     "invoiceType" TEXT,
+ADD COLUMN     "invoiceTitle" TEXT,
+ADD COLUMN     "invoiceTaxId" TEXT,
+ADD COLUMN     "invoiceTaxOffice" TEXT,
+ADD COLUMN     "invoiceAddress" TEXT,
+ADD COLUMN     "invoiceSameAsDelivery" BOOLEAN NOT NULL DEFAULT false,
+ADD COLUMN     "orderNote" TEXT;
